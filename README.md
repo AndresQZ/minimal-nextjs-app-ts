@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000/home-page](http://localhost:3000/home-page) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -38,7 +38,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 ## build Docker image 
-make sure package-lock.json exits If not executes -> npm i
+make sure **package-lock.json** file exists, If not executes -> **npm i**
+
 ```bash
 sh dockerScript.sh
 ```
+A docker image named **apm-nextjs-app-1:latest** will be created.
