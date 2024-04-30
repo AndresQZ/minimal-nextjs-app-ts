@@ -44,3 +44,9 @@ make sure **package-lock.json** file exists, If not executes -> **npm i**
 sh dockerScript.sh
 ```
 A docker image named **apm-nextjs-app-1:latest** will be created.
+
+## Call x-space-rest API route
+http://localhost:3000/api/x-space-rest
+
+## Call x-starlink-rest API route
+http://localhost:3000/api/x-starlink-rest

@@ -5,12 +5,12 @@ function init() {
     });
   
     Tracer.use('http', {
-      blocklist: [`/api/v1/record`],
+      blocklist: ["/api/v1/record", "https://api.spacexdata.com/v4/starlink"],
       client: {
-        blocklist: [`/api/v1/record`]
+        blocklist: ["/api/v1/record", "https://api.spacexdata.com/v4/starlink"]
       },
       server: {
-        blocklist:  [`/api/v1/record`]
+        blocklist:  ["/api/v1/record", "https://api.spacexdata.com/v4/starlink"]
       },
       hooks: {
         request(span, req) {
